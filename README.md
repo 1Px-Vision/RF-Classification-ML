@@ -5,3 +5,9 @@ This dashboard provides real-time RF signal analysis using an RTL-SDR device. It
 The system uses a deep learning-based classification model (ONNX format) to identify different modulation types such as BPSK, QPSK, GMSK, FM, OOK, OQPSK, 8PSK, 16QAM, AM-DSB-WC, AM-DSB-SC.
 
 ![S_RF](https://github.com/1Px-Vision/RF-Classification-ML/blob/main/Classification_RF.jpg)
+
+**1. Getting Started**
+
+- Connect the RTL-SDR to your computer.
+- Launch the Dashboard by running the Python script.
+- Click Start/Stop to begin or halt real-time signal acquisition.
