@@ -76,3 +76,11 @@ Contains usage instructions, troubleshooting steps, and contact details.
 ### 4- Exit the Application
 - Click the Quit button to close the dashboard.
 
+## 4. Troubleshooting
+
+| Issue                              | Solution |
+|------------------------------------|----------|
+| **No signal appears in Power Spectrum** | Ensure RTL-SDR is connected properly and selected as the device. Check frequency and gain settings. |
+| **Waterfall display is empty**     | Try increasing the sample rate or adjusting gain. |
+| **Classification results seem incorrect** | Ensure the correct Neural Network model and Quantization settings are selected. |
+| **App freezes**                    | Stop the acquisition, wait a few seconds, then restart. If needed, restart the application. |
