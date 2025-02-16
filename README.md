@@ -84,3 +84,8 @@ Contains usage instructions, troubleshooting steps, and contact details.
 | **Waterfall display is empty**     | Try increasing the sample rate or adjusting gain. |
 | **Classification results seem incorrect** | Ensure the correct Neural Network model and Quantization settings are selected. |
 | **App freezes**                    | Stop the acquisition, wait a few seconds, then restart. If needed, restart the application. |
+
+## 5. Additional Notes
+- Ensure that the RTL-SDR driver is properly installed before running the dashboard.
+- The system requires **Python 3.x**, **Dash**, **Plotly**, **NumPy**, **Scipy**, **ONNX Runtime**, and **RTL-SDR** Python libraries.
+- For best performance, use a dedicated machine with sufficient processing power.
