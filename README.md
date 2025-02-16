@@ -18,3 +18,43 @@ The system uses a deep learning-based classification model (ONNX format) to iden
 - **LED Indicator (Red/Green):** Shows whether the system is running or stopped.
 - **Start/Stop Button:** Toggles real-time signal processing.
 - **Quit Button:**  Exits the application.
+
+### Main Analysis Panel
+
+#### Power Spectrum (FFT Display)
+- Shows the frequency spectrum of the received signal.
+- **X-axis:** Frequency in MHz.
+- **Y-axis:** Power Density in dB.
+- **Blue Line:** Represents the signal's power spectrum.
+  
+#### Classification Modulation (Bar Chart)
+- Displays real-time classification of modulation schemes.
+- **X-axis:** Accuracy (%) of classification.
+- **Y-axis:** Different modulation types detected.
+
+#### Spectrogram (Waterfall Display)
+- Shows the time-frequency representation of the signal.
+- **X-axis:** Frequency in MHz.
+- **Y-axis:** Time evolution of frequency components.
+- **Color Scale:** Represents signal power (yellow = strong, blue = weak).
+
+### Right Panel – Configuration Settings
+
+#### Control Tab
+- Selects device type (RTL-SDR, HackRF, Airspy).
+- Adjusts **LNA Gain** manually or enables Auto Gain.
+- Chooses a **Neural Network** (CNN, ResNet, VGG10, etc.) for classification.
+- Selects **Quantization Mode** (e.g., 32-bit, 8-bit, 4-bit) for optimized performance.
+
+#### Configure Tab
+
+- **Corr. PPM:** Frequency correction in parts per million.
+- **Center Frequency (MHz):** Adjust the tuning frequency.
+- **Start/End Frequency (MHz):** Defines the scan range when in Scan Mode.
+- **Channels:** Number of frequency bands to process.
+- **Mode:** Choose between Multichannel or Scan Mode.
+- **Sample Rate:** Selects SDR sampling rate (e.g., 2.048 MSPS).
+- **Read Sample:** Defines the number of IQ samples acquired per read.
+  
+### Help Tab
+Contains usage instructions, troubleshooting steps, and contact details.
