@@ -58,3 +58,21 @@ The system uses a deep learning-based classification model (ONNX format) to iden
   
 ### Help Tab
 Contains usage instructions, troubleshooting steps, and contact details.
+
+## 3. How to Use
+### 1- Start Real-Time Processing
+- Click Start/Stop to begin RF signal acquisition.
+- The LED indicator will turn Green.
+- The Power Spectrum, Spectrogram, and Classification Chart will update in real-time.
+  
+### 2- Modify Settings
+- Adjust the Center Frequency, Gain, or Neural Network Model.
+- Switch between Multichannel Mode and Scan Mode.
+
+### 3- Stop Processing
+- Click Start/Stop again to stop data acquisition.
+- The LED indicator will turn Red.
+
+### 4- Exit the Application
+- Click the Quit button to close the dashboard.
+
