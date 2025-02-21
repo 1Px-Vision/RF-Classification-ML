@@ -1,4 +1,9 @@
 # RF-Classification-ML
+
+In emergency situations, particularly in disaster-stricken areas, detecting RF signals is essential for locating victims and supporting rescue operations~\cite{rescue}. These signals, covering a wide frequency spectrum, provide critical information that aids first responders in coordinating search efforts. Common RF sources in such environments include cellular networks, radio broadcasts, and satellite communications.
+
+Accurate detection and classification of these signals are vital for identifying distress transmissions and optimizing resource allocation. Key cellular modulation formats include QPSK (Quadrature Phase Shift Keying), GMSK (Gaussian Minimum Shift Keying), 16QAM (16-Quadrature Amplitude Modulation), OQPSK (Offset Quadrature Phase Shift Keying), and 8PSK (8-Phase Shift Keying). Broadcast radio signals typically use FM (Frequency Modulation), AM-DSB-SC (Double-Sideband Suppressed Carrier), and AM-SSB (Single-Sideband Modulation). In satellite communications, BPSK (Binary Phase Shift Keying) is a common modulation scheme, while Morse code distress signals are often transmitted using OOK (On-Off Keying).
+
 ![C_RF](https://github.com/1Px-Vision/RF-Classification-ML/blob/main/Dashboard_RF.jpg)
 ## Overview
 This dashboard provides real-time RF signal analysis using an RTL-SDR device. It continuously acquires and processes radio signals, displaying the Power Spectrum, Spectrogram (Waterfall), and Modulation Classification Results.
