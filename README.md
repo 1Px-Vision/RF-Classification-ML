@@ -26,6 +26,8 @@ Confusion matrices for CNN, VGG10, and ResNet models trained on the RadioML2018.
 
 ![Confusion_Matrix](https://github.com/1Px-Vision/RF-Classification-ML/blob/main/Matrix_SDR_RF.jpg)
 
+## Interface for real‐time signal capture
+
 ### **1. Getting Started**
 
 - Connect the RTL-SDR to your computer.
