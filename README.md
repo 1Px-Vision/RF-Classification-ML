@@ -6,6 +6,21 @@ The system uses a deep learning-based classification model (ONNX format) to iden
 
 ![S_RF](https://github.com/1Px-Vision/RF-Classification-ML/blob/main/Classification_RF.jpg)
 
+
+| **Modulation Type** | **Technology and Application** |
+|---------------------|--------------------------------|
+| **AM-SSB**         | Ideal for maritime and aviation emergencies, AM-SSB ensures long-distance voice communication with high power efficiency, making it crucial for rescue coordination over vast areas. |
+| **AM-DSB-SC**      | Transmits both sidebands without a carrier, enhancing power efficiency but requiring precise synchronization. Used in disaster relief for long-distance emergency signals in military and governmental networks. |
+| **FM**             | Widely used in VHF/UHF public safety and commercial radio, providing clear, noise-resistant audio for emergency teams. It ensures reliable coverage in various areas but degrades quickly over long distances without repeaters. |
+| **OOK**            | A simple amplitude shift keying method, historically tied to Morse code, used in emergency beacons, distress signals, and survival radios for low-power communication. |
+| **BPSK**           | Robust digital modulation resistant to noise, widely used in satellite-based rescue communications (e.g., Iridium, Inmarsat) for voice and data transmission in remote areas. Satellite distress beacons (EPIRBs [1], PLBs [2], and COSPAS-SARSAT [3]) enable global emergency messaging under weak signal conditions. |
+| **QPSK**           | Efficient for disaster scenarios, supporting emergency communication via deployable LTE, temporary towers, and UAV relays, ensuring reliable transmission for first responders. |
+| **OQPSK**          | OQPSK minimizes phase transitions, improving resilience against signal degradation in emergency communications. It is widely used in satellite-based distress signaling, such as COSPAS-SARSAT beacons and emergency transponders, due to its stability in weak or noisy conditions. |
+| **8PSK**           | Encodes three bits per symbol for high spectral efficiency, enabling fast emergency data transmission in satellite and broadband systems, but requires a high SNR for accurate detection. |
+| **GMSK**           | Primary modulation for GSM networks, essential for emergency calls and disaster recovery. Its smooth frequency transitions minimize interference, ensuring efficient communication in high-traffic scenarios. It also supports portable cell towers and drones for restoring mobile services during emergencies. |
+| **16QAM**          | High-order modulation enables high-speed emergency broadband communication but requires strong signals. It supports rapid transmission of images, videos, and medical telemetry in urban rescues and UA
+
+
 ## Models and Training
 Confusion matrices for CNN, VGG10, and ResNet models trained on the RadioML2018.01A dataset, comparing 32-bit precision against 1.5-bit quantization. The upper row displays results under standard 32-bit precision, while the lower row illustrates how classification performance changes with 1.5-bit quantization. Each confusion matrix reflects the models’ abilities to distinguish among different modulation types, thereby highlighting the impact of quantization on recognition accuracy.
 
