@@ -28,6 +28,8 @@ Confusion matrices for CNN, VGG10, and ResNet models trained on the RadioML2018.
 
 ## Hardware-Integrated system RTL-SDR
 
+The RTL-SDR functions as the front-end receiver, enabling the capture of a wide range of radio frequencies. It digitizes incoming RF signals, which are then processed for classification. Its selection provides a cost-effective and adaptable solution for receiving diverse signal types while ensuring seamless integration and ease of operation.
+
 ![RTL](https://github.com/1Px-Vision/RF-Classification-ML/blob/main/RTL_SDR.jpg)
 
 ## Interface for real‐time signal capture
