@@ -6,6 +6,11 @@ The system uses a deep learning-based classification model (ONNX format) to iden
 
 ![S_RF](https://github.com/1Px-Vision/RF-Classification-ML/blob/main/Classification_RF.jpg)
 
+## Models and Training
+Shown here are confusion matrices for CNN, VGG10, and ResNet models trained on the RadioML2018.01A dataset, comparing 32-bit precision against 1.5-bit quantization. The upper row displays results under standard 32-bit precision, while the lower row illustrates how classification performance changes with 1.5-bit quantization. Each confusion matrix reflects the models’ abilities to distinguish among different modulation types, thereby highlighting the impact of quantization on recognition accuracy
+
+
+
 ### **1. Getting Started**
 
 - Connect the RTL-SDR to your computer.
